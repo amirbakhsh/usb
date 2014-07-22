@@ -1,0 +1,13 @@
+E:\4 Shaz Only\UBSTest\UBSTest\obj\x86\Debug\MainWindow.baml
+E:\4 Shaz Only\UBSTest\UBSTest\obj\x86\Debug\MainWindow.g.cs
+E:\4 Shaz Only\UBSTest\UBSTest\obj\x86\Debug\App.g.cs
+E:\4 Shaz Only\UBSTest\UBSTest\obj\x86\Debug\UBSTest_MarkupCompile.cache
+E:\4 Shaz Only\UBSTest\UBSTest\obj\x86\Debug\UBSTest.g.resources
+E:\4 Shaz Only\UBSTest\UBSTest\obj\x86\Debug\UBSTest.Properties.Resources.resources
+E:\4 Shaz Only\UBSTest\UBSTest\obj\x86\Debug\UBSTest.csproj.GenerateResource.Cache
+E:\4 Shaz Only\UBSTest\UBSTest\bin\Debug\UBSTest.exe
+E:\4 Shaz Only\UBSTest\UBSTest\bin\Debug\UBSTest.pdb
+E:\4 Shaz Only\UBSTest\UBSTest\obj\x86\Debug\UBSTest.exe
+E:\4 Shaz Only\UBSTest\UBSTest\obj\x86\Debug\UBSTest.pdb
+E:\4 Shaz Only\UBSTest\UBSTest\bin\Debug\nunit.framework.dll
+E:\4 Shaz Only\UBSTest\UBSTest\bin\Debug\nunit.framework.xml

@@ -1,0 +1,28 @@
+﻿<Window x:Class="UBSTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="456" Width="875">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox Text="{Binding Path=UserInput}" IsEnabled="True"></TextBox>
+        <Button Content="Count Words" Grid.Column="1" Width="100" Height="100" Margin="5" Command="{Binding WordsCountCommand}"></Button>
+        <ListBox ItemsSource="{Binding Path=WordsCount}" Grid.Column="2">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding Word}" Margin="2"/>
+                        <TextBlock Text="{Binding WordCount}" Margin="2" Grid.Column="1" HorizontalAlignment="Right"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
